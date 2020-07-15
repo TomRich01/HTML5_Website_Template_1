@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+      <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<nav class="navbar is-transparent" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="src/images/matcher_200px_logo_2.png" alt="Matcher: site" width="100"
+        height="100" /> </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/index.html">
+        Home
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          About
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+            Features
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+            Pricing
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+            Company
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+            FAQ
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+                    <p class="control">
+                      <a class="button is-medium" href="/src/dashboard.html">
+                        <span class="icon">
+                          <i class="fas fa-user"></i>
+                        </span>
+                        <span>Login</span>
+                      </a>
+                    </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+     
+
+              <div id="section_header_piece"></div>
+                <div id="section_banner_piece"></div>
+                <div id="section_piece"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+
+
+  <script>document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });</script>
+  
+  <script type="text/babel">
+
+    ReactDOM.render(
+     <section class="hero is-light is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Match. Date. Love.
+      </h1>
+            <h2 class="subtitle">
+              Modern techniques for an old tradition
+      </h2>
+          </div>
+        </div>
+      </section>,
+      document.getElementById('section_banner_piece')
+    );
+
+  </script>
+
+<!-- NavBar REACT RENDER-->
+  
+    <script type="text/babel">
+
+      ReactDOM.render(
+        <section class="hero is-link is-fullheight-with-navbar has-bg-img">
+          <div class="hero-body columns">
+             <div class="column is-2">
+              <span>
+              </span> </div>
+            <div class="container column is-4 is-offset-0">
+              <p class="title">
+                Join The Program & Find Your Match!
+                    </p>
+              <div class="card">
+                <div class="card-content">
+                  <div class="field">
+                    <label class="label">Username</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Text input"/>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                      <label class="label">Email</label>
+                      <div class="control">
+                        <input class="input" type="email" placeholder="Email input"/>
+                        </div>
+                      </div>
+
+                  <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control">
+                      <input class="input" type="password" placeholder="Password input" />
+                    </div>
+                  </div>
+
+                      <div class="field">
+                        <div class="control">
+                          <label class="checkbox">
+                            <input type="checkbox"/>
+                               <span> </span> I agree to the <a href="#">terms and conditions</a>
+                          </label>
+                        </div>
+                        </div>
+
+                        <div class="field">
+                          <div class="control">
+                            <label class="radio">
+                              <input type="radio" name="question"/>
+                                Male
+                          </label>
+                              <label class="radio">
+                                <input type="radio" name="question"/>
+                                  Female
+                          </label>
+                        </div>
+                      </div>
+
+                            <div class="field is-grouped">
+                              <div class="control">
+                                <button class="button is-link">Submit</button>
+                              </div>
+                              <div class="control">
+                                <button class="button is-link is-light">Cancel</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div class="column is-2">
+                          <span>
+                            </span> </div>
+
+                          <div class="container column is-4 is-offset-0">
+              <p class="title">
+                We love to match!
+                    </p>
+
+              </div>
+                      
+                    </div>
+                    
+              </section>,
+        document.getElementById('section_header_piece')
+      );
+
+    </script>
+  
+  
+  <script type="text/babel">
+
+    ReactDOM.render(
+      <section className="section">
+        <div className="container">
+          <h1 className="title">
+            Hello World
+      </h1>
+
+          <p className="subtitle">
+            My first website with <strong>Bulma</strong>!
+      </p>
+        </div>
+      </section>,
+      document.getElementById('section_piece')
+    );
+
+  </script>
+
+
+
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+      <!-- Load our React component. -->
+     <!--  <script src="index.jsx"></script> --> 
+</body>
+
+</html>
